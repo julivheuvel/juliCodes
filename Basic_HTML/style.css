@@ -1,0 +1,60 @@
+/* ========== */
+/* Resets */
+/* ========== */
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* border: red 10px solid; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* ========== */
+/* Header */
+/* ========== */
+header {
+    background-color: navy;
+    padding: 1.5em 3em;
+    color: whitesmoke;
+}
+
+/* ========== */
+/* Main */
+/* ========== */
+main {
+    padding: 1.5em 3em;
+}
+main > button {
+    background-color: navy;
+    color: whitesmoke;
+    border-radius: 1em;
+    padding: 1em;
+}
+main > button:hover {
+    background-color: whitesmoke;
+    color: navy;
+    border: 2px solid rgb(177, 177, 177);
+}
+main > button:active {
+    background-color: navy;
+    color: whitesmoke;
+    transform: scale(0.95);
+}
+
+/* ========== */
+/* Footer */
+/* ========== */
+footer {
+    background-color: navy;
+    padding: 1.5em 3em;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}

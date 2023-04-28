@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>juliCodes</div>
+    </header>
+
+    <main>
+        <h2>Register</h2>
+        <form action="/process">
+
+            <fieldset>
+                <label for="name">name</label>
+                <input required type="text">
+            </fieldset>
+            <fieldset>
+                <label for="email">email</label>
+                <input required type="email">
+            </fieldset>
+            <fieldset>
+                <label for="phone number">phone number</label>
+                <input required type="tel">
+            </fieldset>
+            <fieldset>
+                <label for="username">username</label>
+                <input required type="text">
+            </fieldset>
+            <fieldset>
+                <label for="password">password</label>
+                <input required type="password">
+            </fieldset>
+            <fieldset>
+                <label for="coffee">need coffee?</label>
+                <div class="coffee">
+                    <div class="coffeeSub">
+                        <label for="yesCoffee">yes</label>
+                        <input required type="radio" for="coffee" name="coffee">
+                    </div>
+                    <div class="coffeeSub">
+                        <label for="noCoffee">no</label>
+                        <input required type="radio" for="coffee" name="coffee">
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <label for="favFood">favorite food</label>
+                <select required name="favFood">
+                    <option value="---">---</option>
+                    <option value="carrots">carrots</option>
+                    <option value="icecream">ice cream</option>
+                    <option value="tacos">tacos</option>
+                    <option value="sushi">sushi</option>
+                    <option value="steak">steak</option>
+                    <option value="soupdumplings">soup dumplings</option>
+                    <option value="korean bbq">korean bbq</option>
+                    <option value="falafel">falafel</option>
+                </select>
+            </fieldset>
+            <button>submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <div>julicodes</div>
+        <div>1234 camelCaseExample Drive</div>
+        <div>PascalCase's PhoneNumber: 123.456.7890</div>
+    </footer>
+
+</body>
+</html>
